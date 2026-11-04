@@ -13,7 +13,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-d5ef79?labelColor=1a1030" alt="License: Apache 2.0" /></a>
   <img src="https://img.shields.io/badge/status-development_preview-d5ef79?labelColor=1a1030" alt="Status: development preview" />
   <a href="src/engine"><img src="https://img.shields.io/badge/built_with-TypeScript-d5ef79?labelColor=1a1030" alt="Built with TypeScript" /></a>
-  <a href="https://github.com/0x-Sigmoid/nodedots/stargazers"><img src="https://img.shields.io/github/stars/0x-Sigmoid/nodedots?style=flat&color=d5ef79&labelColor=1a1030" alt="GitHub stars" /></a>
+  <a href="https://github.com/0xUkobong/nodedots/stargazers"><img src="https://img.shields.io/github/stars/0xUkobong/nodedots?style=flat&color=d5ef79&labelColor=1a1030" alt="GitHub stars" /></a>
 </p>
 
 <p align="center">
@@ -93,7 +93,7 @@ Start with the [engine](src/engine), [GitHub pipeline](src/github), and [report 
 Use **Node.js 22 or newer** and npm. Run these commands from a fresh clone:
 
 ```bash
-git clone https://github.com/0x-Sigmoid/nodedots.git
+git clone https://github.com/0xUkobong/nodedots.git
 cd nodedots
 npm ci
 npm run dev
@@ -147,7 +147,7 @@ There is no published `nodedots check` package to install yet. To follow the hos
 
 Good starting points include a reproducible missed connection, a noisy finding, a small extraction rule, an accessibility improvement, or a clearer example.
 
-1. [Open an issue](https://github.com/0x-Sigmoid/nodedots/issues) with the problem and expected behavior. Discuss larger changes before implementing them.
+1. [Open an issue](https://github.com/0xUkobong/nodedots/issues) with the problem and expected behavior. Discuss larger changes before implementing them.
 2. Work in a branch or fork. Keep changes focused and add an evaluation fixture when changing analysis behavior.
 3. Run the relevant checks, then open a pull request explaining the change and how you verified it.
 

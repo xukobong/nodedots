@@ -3,7 +3,7 @@ import { findings } from "@/workspace/model";
 import type { ImpactReport } from "@/engine/types";
 import { snapshot } from "./git";
 import { CliError, help, parseOptions, type Options } from "./options";
-export const version = "0.1.0";
+export const version = "0.1.1";
 export function exitCode(report: ImpactReport, options: Options) {
     if (options.requireFull && (report.coverage.completeness !== "full" || report.coverage.totalCandidates > report.coverage.publishedFindings))
         return 3;

@@ -1,6 +1,6 @@
 {
   "name": "nodedots",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Local advisory pull request pre-flight analysis for supported JavaScript and TypeScript repositories",
   "license": "Apache-2.0",
   "bin": {
@@ -19,12 +19,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/0x-Sigmoid/nodedots.git",
+    "url": "https://github.com/0xUkobong/nodedots.git",
     "directory": "packages/cli"
   },
   "homepage": "https://nodedots.com/doc/pre-flight-cli",
   "bugs": {
-    "url": "https://github.com/0x-Sigmoid/nodedots/issues"
+    "url": "https://github.com/0xUkobong/nodedots/issues"
   },
   "keywords": [
     "cli",
