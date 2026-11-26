@@ -26,7 +26,7 @@ The use-case items for review, AI-generated changes, missing tests, authenticati
 
 The database and API links select the existing “Add team roles” example, which includes schema, migration, and route findings. The authentication link selects “Change authentication.” There is no additional integration or dedicated API-contract analyzer behind these examples.
 
-Planned and TBA routes render the shared ComingSoon template with the configured title and description, a Planned badge (plus TBA where applicable), and the existing waitlist form. Future verticals remain on the vision page rather than in the menus. The X link uses the existing @nodedots account. The header also links to the canonical public repository, https://github.com/0xUkobong/nodedots.
+Planned and TBA routes render the shared ComingSoon template with the configured title and description, a Planned badge (plus TBA where applicable), and the existing waitlist form. Future verticals remain on the vision page rather than in the menus. The X link uses the existing @nodedots account. The header also links to the canonical public repository, https://github.com/xukobong/nodedots.
 
 The configured `/product/[slug]` and `/resources/[slug]` pages resolve at request time. The current Cloudflare adapter returned 404s for the static-parameter versions; request-time rendering avoids that deployment limitation. Unknown slugs still return a real 404.
 

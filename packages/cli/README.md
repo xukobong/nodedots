@@ -59,4 +59,4 @@ Deterministic analysis supports selected JavaScript/TypeScript and Prisma patter
 
 Private `.env` files, `.dev.vars`, credential extensions, linked paths, generated files, dependencies, binary files, and unsupported changed files are excluded with coverage notes. Do not put secrets in source or example inventories. Limits: 1 MB per file, 500 changed files, 10,000 eligible files, and 100 MB each for Git blobs and working content. Dynamic relationships, unsupported languages, graph limits, and omitted findings remain visible limitations. Source evidence may appear in reports: handle exported output accordingly.
 
-License: Apache-2.0. [Documentation](https://nodedots.com/doc/pre-flight-cli) · [Source](https://github.com/0xUkobong/nodedots).
+License: Apache-2.0. [Documentation](https://nodedots.com/doc/pre-flight-cli) · [Source](https://github.com/xukobong/nodedots).
